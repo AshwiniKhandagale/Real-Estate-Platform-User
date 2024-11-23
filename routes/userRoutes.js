@@ -11,10 +11,10 @@ const {
 const verifyToken = require('../middleware/authMiddleware');
 
 // Register a new user
-router.post('/register', registerUser);
+router.post('/users/register', registerUser);
 
 // Login an existing user
-router.post('/login', loginUser);
+router.post('/users/login', loginUser);
 
 // Get all users
 router.get('/users', verifyToken, getAllUsers);

@@ -18,6 +18,7 @@
     "jwt-simple": "^0.5.6",
     "mongoose": "^8.8.2",
     "nodemon": "^3.1.7",
+    "real-estate-platform-user": "file:",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.1"
   }
